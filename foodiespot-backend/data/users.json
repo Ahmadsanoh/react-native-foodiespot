@@ -1,0 +1,171 @@
+[
+  {
+    "id": "95ea16dc-b000-474f-8d8e-43f402bfc506",
+    "email": "sanohahmad996@gmail.com",
+    "firstName": "sanohahmad996",
+    "lastName": "Demo",
+    "phone": "",
+    "avatar": "",
+    "addresses": [
+      {
+        "id": "811a2e5e-b5ba-42bc-8bf1-2baa07e296cb",
+        "label": "Maison",
+        "street": "123 Rue de Paris",
+        "city": "Paris",
+        "postalCode": "75001",
+        "country": "France",
+        "latitude": 48.8566,
+        "longitude": 2.3522,
+        "isDefault": true
+      }
+    ],
+    "notificationsEnabled": true,
+    "preferences": {
+      "theme": "system",
+      "language": "fr"
+    },
+    "createdAt": "2026-03-05T16:23:37.317Z",
+    "password": "qifXyc-rebbus-xutje0",
+    "photo": "http://192.168.1.15:4000/uploads/1772727962119-4f26a8a5-8210-4e71-9027-02c3825744fa.jpg"
+  },
+  {
+    "id": "a50fec14-fbd7-4c64-831c-bae45318ad4f",
+    "email": "sanoh@gmail.com",
+    "firstName": "sanoh",
+    "lastName": "Demo",
+    "phone": "",
+    "avatar": "",
+    "addresses": [
+      {
+        "id": "14fc5eac-f2cf-4075-9b08-3f924998b25d",
+        "label": "Maison",
+        "street": "123 Rue de Paris",
+        "city": "Paris",
+        "postalCode": "75001",
+        "country": "France",
+        "latitude": 48.8566,
+        "longitude": 2.3522,
+        "isDefault": true
+      }
+    ],
+    "notificationsEnabled": true,
+    "preferences": {
+      "theme": "system",
+      "language": "fr"
+    },
+    "createdAt": "2026-03-06T10:51:07.111Z",
+    "password": "LILSANOH 123"
+  },
+  {
+    "id": "0246a1b2-31aa-4048-aed9-80890b9d8137",
+    "email": "ahmadsanoh@gmail.com",
+    "firstName": "ahmadsanoh",
+    "lastName": "Demo",
+    "phone": "",
+    "avatar": "",
+    "addresses": [
+      {
+        "id": "376b2494-507d-4d6a-85b2-41b1ba1d8fa6",
+        "label": "Maison",
+        "street": "123 Rue de Paris",
+        "city": "Paris",
+        "postalCode": "75001",
+        "country": "France",
+        "latitude": 48.8566,
+        "longitude": 2.3522,
+        "isDefault": false
+      }
+    ],
+    "notificationsEnabled": true,
+    "preferences": {
+      "theme": "system",
+      "language": "fr"
+    },
+    "createdAt": "2026-03-14T12:19:49.268Z",
+    "password": "qifXyc-rebbus-xutje0"
+  },
+  {
+    "id": "17e9dcb3-f760-446d-a989-76e56199e35f",
+    "email": "ahmadsanoh@hmail.com",
+    "firstName": "ahmadsanoh",
+    "lastName": "Demo",
+    "phone": "",
+    "avatar": "",
+    "addresses": [
+      {
+        "id": "6a592e83-2970-4219-8830-93a1192e8d3e",
+        "label": "Maison",
+        "street": "123 Rue de Paris",
+        "city": "Paris",
+        "postalCode": "75001",
+        "country": "France",
+        "latitude": 48.8566,
+        "longitude": 2.3522,
+        "isDefault": true
+      }
+    ],
+    "notificationsEnabled": true,
+    "preferences": {
+      "theme": "system",
+      "language": "fr"
+    },
+    "createdAt": "2026-03-14T16:37:27.127Z",
+    "password": "qifXyc-rebbus-xutje0"
+  },
+  {
+    "id": "a5b4406b-b5b8-47bf-a3c1-aedeb9dec989",
+    "email": "ahmad@gmail.com",
+    "firstName": "ahmad",
+    "lastName": "Demo",
+    "phone": "",
+    "avatar": "",
+    "addresses": [
+      {
+        "id": "0055aa69-c885-4fc0-92f1-2a98af99a667",
+        "label": "Maison",
+        "street": "123 Rue de Paris",
+        "city": "Paris",
+        "postalCode": "75001",
+        "country": "France",
+        "latitude": 48.8566,
+        "longitude": 2.3522,
+        "isDefault": true
+      }
+    ],
+    "notificationsEnabled": true,
+    "preferences": {
+      "theme": "system",
+      "language": "fr"
+    },
+    "createdAt": "2026-03-14T22:27:39.233Z",
+    "password": "lehdgeihsb"
+  },
+  {
+    "id": "9b5faf44-2dae-456f-9b9e-5f96ad56b621",
+    "email": "ahmadsanoh@hehe.com",
+    "firstName": "ahmadsanoh",
+    "lastName": "Demo",
+    "phone": "",
+    "avatar": "",
+    "addresses": [
+      {
+        "id": "96d4d888-a4ca-406b-bd8c-59938846c4e8",
+        "label": "Maison",
+        "street": "123 Rue de Paris",
+        "city": "Paris",
+        "postalCode": "75001",
+        "country": "France",
+        "latitude": 48.8566,
+        "longitude": 2.3522,
+        "isDefault": true
+      }
+    ],
+    "notificationsEnabled": true,
+    "preferences": {
+      "theme": "system",
+      "language": "fr"
+    },
+    "createdAt": "2026-03-14T23:01:33.525Z",
+    "password": "qifXyc-rebbus-xutje0"
+  }
+]

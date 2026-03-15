@@ -1,0 +1,845 @@
+[
+  {
+    "id": "o1",
+    "orderNumber": "FS-20240115-001",
+    "userId": "demo-user",
+    "restaurantId": "r1",
+    "restaurantName": "Bistro Parisien",
+    "restaurantImage": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop",
+    "items": [
+      {
+        "menuItemId": "d1",
+        "menuItem": {
+          "id": "d1",
+          "name": "Soupe à l'Oignon",
+          "price": 8.5,
+          "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=2071&auto=format&fit=crop"
+        },
+        "quantity": 2,
+        "totalPrice": 17
+      },
+      {
+        "menuItemId": "d4",
+        "menuItem": {
+          "id": "d4",
+          "name": "Boeuf Bourguignon",
+          "price": 18.5,
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?q=80&w=2070&auto=format&fit=crop"
+        },
+        "quantity": 1,
+        "totalPrice": 18.5
+      }
+    ],
+    "status": "delivered",
+    "subtotal": 35.5,
+    "deliveryFee": 3.5,
+    "serviceFee": 0.99,
+    "tip": 0,
+    "discount": 0,
+    "total": 39.99,
+    "paymentMethod": "card",
+    "deliveryAddress": {
+      "id": "addr-1",
+      "label": "Maison",
+      "street": "15 avenue des Champs-Élysées",
+      "city": "Paris",
+      "postalCode": "75008",
+      "country": "France",
+      "latitude": 48.8698,
+      "longitude": 2.3075,
+      "isDefault": true
+    },
+    "estimatedDelivery": "2024-01-15T19:30:00Z",
+    "actualDelivery": "2024-01-15T19:25:00Z",
+    "driverInfo": {
+      "id": "driver-1",
+      "name": "Jean Dupont",
+      "phone": "+33 6 12 34 56 78",
+      "avatar": "https://randomuser.me/api/portraits/men/32.jpg",
+      "vehicle": "Scooter",
+      "licensePlate": "AB-123-CD",
+      "rating": 4.9
+    },
+    "timeline": [
+      {
+        "status": "pending",
+        "timestamp": "2024-01-15T18:45:00Z",
+        "message": "Commande reçue"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2024-01-15T18:47:00Z",
+        "message": "Commande confirmée par le restaurant"
+      },
+      {
+        "status": "preparing",
+        "timestamp": "2024-01-15T18:50:00Z",
+        "message": "Préparation en cours"
+      },
+      {
+        "status": "ready",
+        "timestamp": "2024-01-15T19:10:00Z",
+        "message": "Commande prête"
+      },
+      {
+        "status": "picked_up",
+        "timestamp": "2024-01-15T19:12:00Z",
+        "message": "Récupérée par le livreur"
+      },
+      {
+        "status": "delivering",
+        "timestamp": "2024-01-15T19:15:00Z",
+        "message": "En cours de livraison"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2024-01-15T19:25:00Z",
+        "message": "Livrée"
+      }
+    ],
+    "createdAt": "2024-01-15T18:45:00Z",
+    "updatedAt": "2024-01-15T19:25:00Z"
+  },
+  {
+    "id": "o2",
+    "orderNumber": "FS-20240116-002",
+    "userId": "demo-user",
+    "restaurantId": "r2",
+    "restaurantName": "Tokyo Roll",
+    "restaurantImage": "https://images.unsplash.com/photo-1579871494447-9811cf80d66c?q=80&w=2070&auto=format&fit=crop",
+    "items": [
+      {
+        "menuItemId": "d12",
+        "menuItem": {
+          "id": "d12",
+          "name": "Edamame",
+          "price": 5,
+          "image": "https://images.unsplash.com/photo-1583933378650-4e4e3fbc8b0b?q=80&w=2070&auto=format&fit=crop"
+        },
+        "quantity": 1,
+        "totalPrice": 5
+      },
+      {
+        "menuItemId": "d16",
+        "menuItem": {
+          "id": "d16",
+          "name": "Sushi Mix",
+          "price": 18,
+          "image": "https://images.unsplash.com/photo-1564489563601-c53cfc451e93?q=80&w=2073&auto=format&fit=crop"
+        },
+        "quantity": 1,
+        "totalPrice": 18
+      },
+      {
+        "menuItemId": "d19",
+        "menuItem": {
+          "id": "d19",
+          "name": "Poke Bowl Saumon",
+          "price": 14,
+          "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=2080&auto=format&fit=crop"
+        },
+        "quantity": 1,
+        "totalPrice": 14
+      }
+    ],
+    "status": "delivering",
+    "subtotal": 37,
+    "deliveryFee": 2.99,
+    "serviceFee": 0.99,
+    "tip": 2,
+    "discount": 0,
+    "total": 42.98,
+    "paymentMethod": "card",
+    "deliveryAddress": {
+      "id": "addr-1",
+      "label": "Maison",
+      "street": "15 avenue des Champs-Élysées",
+      "city": "Paris",
+      "postalCode": "75008",
+      "country": "France",
+      "latitude": 48.8698,
+      "longitude": 2.3075,
+      "isDefault": true
+    },
+    "estimatedDelivery": "2024-01-16T20:00:00Z",
+    "driverInfo": {
+      "id": "driver-2",
+      "name": "Sophie Martin",
+      "phone": "+33 6 87 65 43 21",
+      "avatar": "https://randomuser.me/api/portraits/women/44.jpg",
+      "vehicle": "Vélo électrique",
+      "licensePlate": null,
+      "rating": 4.8,
+      "location": {
+        "latitude": 48.865,
+        "longitude": 2.31
+      }
+    },
+    "timeline": [
+      {
+        "status": "pending",
+        "timestamp": "2024-01-16T19:00:00Z",
+        "message": "Commande reçue"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2024-01-16T19:02:00Z",
+        "message": "Commande confirmée par le restaurant"
+      },
+      {
+        "status": "preparing",
+        "timestamp": "2024-01-16T19:05:00Z",
+        "message": "Préparation en cours"
+      },
+      {
+        "status": "ready",
+        "timestamp": "2024-01-16T19:25:00Z",
+        "message": "Commande prête"
+      },
+      {
+        "status": "picked_up",
+        "timestamp": "2024-01-16T19:28:00Z",
+        "message": "Récupérée par le livreur"
+      },
+      {
+        "status": "delivering",
+        "timestamp": "2024-01-16T19:30:00Z",
+        "message": "En cours de livraison"
+      }
+    ],
+    "createdAt": "2024-01-16T19:00:00Z",
+    "updatedAt": "2024-01-16T19:30:00Z"
+  },
+  {
+    "id": "65d23bcf-dc37-4985-a59e-6e9fe27356ec",
+    "orderNumber": "FS-33864414",
+    "userId": "0246a1b2-31aa-4048-aed9-80890b9d8137",
+    "restaurantId": "r1",
+    "restaurantName": "Bistro Parisien",
+    "restaurantImage": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "restaurantPhone": "+33 1 23 45 67 89",
+    "items": [
+      {
+        "menuItemId": "d1",
+        "quantity": 9,
+        "menuItem": {
+          "id": "d1",
+          "name": "Soupe à l'Oignon",
+          "description": "Soupe à l'oignon gratinée au fromage",
+          "price": 8.5,
+          "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=2071&auto=format&fit=crop",
+          "category": "Entrées",
+          "isAvailable": true,
+          "isPopular": true,
+          "isNew": false,
+          "isVegetarian": true,
+          "isVegan": false,
+          "isSpicy": false,
+          "allergens": [
+            "gluten",
+            "lait"
+          ]
+        },
+        "totalPrice": 76.5
+      }
+    ],
+    "status": "delivered",
+    "subtotal": 76.5,
+    "deliveryFee": 0,
+    "serviceFee": 0.99,
+    "tip": 0,
+    "discount": 0,
+    "promoApplied": null,
+    "total": 77.49,
+    "paymentMethod": "card",
+    "deliveryAddress": {
+      "street": "15 avenue des Champs-Élysées",
+      "city": "Paris",
+      "postalCode": "75001",
+      "country": "France"
+    },
+    "estimatedDelivery": "2026-03-15T00:57:44.414Z",
+    "driver": {
+      "id": "driver-001",
+      "name": "Thomas D.",
+      "phone": "+33 6 12 34 56 78",
+      "photo": "https://randomuser.me/api/portraits/men/32.jpg",
+      "vehicle": "Vélo électrique",
+      "rating": 4.8
+    },
+    "timeline": [
+      {
+        "status": "pending",
+        "timestamp": "2026-03-15T00:17:44.414Z",
+        "message": "Commande reçue"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2026-03-15T00:17:54.428Z",
+        "message": "Commande confirmée par le restaurant"
+      },
+      {
+        "status": "preparing",
+        "timestamp": "2026-03-15T00:18:04.424Z",
+        "message": "Préparation en cours"
+      },
+      {
+        "status": "ready",
+        "timestamp": "2026-03-15T00:18:24.422Z",
+        "message": "Commande prête"
+      },
+      {
+        "status": "picked_up",
+        "timestamp": "2026-03-15T00:18:34.423Z",
+        "message": "Récupérée par le livreur"
+      },
+      {
+        "status": "delivering",
+        "timestamp": "2026-03-15T00:18:44.426Z",
+        "message": "En cours de livraison"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2026-03-15T00:19:14.423Z",
+        "message": "Livrée"
+      }
+    ],
+    "createdAt": "2026-03-15T00:17:44.414Z",
+    "updatedAt": "2026-03-15T00:19:14.423Z",
+    "actualDelivery": "2026-03-15T00:19:14.423Z"
+  },
+  {
+    "id": "1710b1d9-90dc-4b4f-8579-3037ed5c8bd1",
+    "orderNumber": "FS-34133422",
+    "userId": "0246a1b2-31aa-4048-aed9-80890b9d8137",
+    "restaurantId": "r1",
+    "restaurantName": "Bistro Parisien",
+    "restaurantImage": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "restaurantPhone": "+33 1 23 45 67 89",
+    "items": [
+      {
+        "menuItemId": "d1",
+        "quantity": 15,
+        "menuItem": {
+          "id": "d1",
+          "name": "Soupe à l'Oignon",
+          "description": "Soupe à l'oignon gratinée au fromage",
+          "price": 8.5,
+          "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=2071&auto=format&fit=crop",
+          "category": "Entrées",
+          "isAvailable": true,
+          "isPopular": true,
+          "isNew": false,
+          "isVegetarian": true,
+          "isVegan": false,
+          "isSpicy": false,
+          "allergens": [
+            "gluten",
+            "lait"
+          ]
+        },
+        "totalPrice": 127.5
+      },
+      {
+        "menuItemId": "d2",
+        "quantity": 1,
+        "menuItem": {
+          "id": "d2",
+          "name": "Escargots de Bourgogne",
+          "description": "6 escargots au beurre persillé",
+          "price": 12,
+          "image": "https://images.unsplash.com/photo-1598866594230-a7c12756260f?q=80&w=2070&auto=format&fit=crop",
+          "category": "Entrées",
+          "isAvailable": true,
+          "isPopular": false,
+          "isNew": false,
+          "isVegetarian": false,
+          "isVegan": false,
+          "isSpicy": false,
+          "allergens": [
+            "lait",
+            "mollusques"
+          ]
+        },
+        "totalPrice": 12
+      },
+      {
+        "menuItemId": "d4",
+        "quantity": 7,
+        "menuItem": {
+          "id": "d4",
+          "name": "Boeuf Bourguignon",
+          "description": "Boeuf mijoté au vin rouge avec légumes de saison",
+          "price": 18.5,
+          "image": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?q=80&w=2070&auto=format&fit=crop",
+          "category": "Plats",
+          "isAvailable": true,
+          "isPopular": true,
+          "isNew": false,
+          "isVegetarian": false,
+          "isVegan": false,
+          "isSpicy": false,
+          "allergens": [
+            "sulfites"
+          ]
+        },
+        "totalPrice": 129.5
+      },
+      {
+        "menuItemId": "d3",
+        "quantity": 4,
+        "menuItem": {
+          "id": "d3",
+          "name": "Salade Niçoise",
+          "description": "Salade composée, thon, œufs, anchois, olives",
+          "price": 11.5,
+          "image": "https://images.unsplash.com/photo-1546069901-ba9599a7e63c?q=80&w=2080&auto=format&fit=crop",
+          "category": "Entrées",
+          "isAvailable": true,
+          "isPopular": true,
+          "isNew": false,
+          "isVegetarian": false,
+          "isVegan": false,
+          "isSpicy": false,
+          "allergens": [
+            "poisson",
+            "oeuf"
+          ]
+        },
+        "totalPrice": 46
+      }
+    ],
+    "status": "delivered",
+    "subtotal": 315,
+    "deliveryFee": 0,
+    "serviceFee": 0.99,
+    "tip": 0,
+    "discount": 0,
+    "promoApplied": null,
+    "total": 315.99,
+    "paymentMethod": "card",
+    "deliveryAddress": {
+      "street": "15 avenue des Champs-Élysées",
+      "city": "Paris",
+      "postalCode": "75001",
+      "country": "France"
+    },
+    "estimatedDelivery": "2026-03-15T01:02:13.422Z",
+    "driver": {
+      "id": "driver-001",
+      "name": "Thomas D.",
+      "phone": "+33 6 12 34 56 78",
+      "photo": "https://randomuser.me/api/portraits/men/32.jpg",
+      "vehicle": "Vélo électrique",
+      "rating": 4.8
+    },
+    "timeline": [
+      {
+        "status": "pending",
+        "timestamp": "2026-03-15T00:22:13.422Z",
+        "message": "Commande reçue"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2026-03-15T00:22:23.428Z",
+        "message": "Commande confirmée par le restaurant"
+      },
+      {
+        "status": "preparing",
+        "timestamp": "2026-03-15T00:22:33.426Z",
+        "message": "Préparation en cours"
+      },
+      {
+        "status": "ready",
+        "timestamp": "2026-03-15T00:22:53.440Z",
+        "message": "Commande prête"
+      },
+      {
+        "status": "picked_up",
+        "timestamp": "2026-03-15T00:23:03.435Z",
+        "message": "Récupérée par le livreur"
+      },
+      {
+        "status": "delivering",
+        "timestamp": "2026-03-15T00:23:13.436Z",
+        "message": "En cours de livraison"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2026-03-15T00:23:43.435Z",
+        "message": "Livrée"
+      }
+    ],
+    "createdAt": "2026-03-15T00:22:13.422Z",
+    "updatedAt": "2026-03-15T00:23:43.435Z",
+    "actualDelivery": "2026-03-15T00:23:43.435Z"
+  },
+  {
+    "id": "d53937fc-a6f7-4a12-92bb-9982a9a3a3b5",
+    "orderNumber": "FS-78888497",
+    "userId": "a5b4406b-b5b8-47bf-a3c1-aedeb9dec989",
+    "restaurantId": "r1",
+    "restaurantName": "Bistro Parisien",
+    "restaurantImage": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "restaurantPhone": "+33 1 23 45 67 89",
+    "items": [
+      {
+        "menuItemId": "d1",
+        "quantity": 6,
+        "menuItem": {
+          "id": "d1",
+          "name": "Soupe à l'Oignon",
+          "description": "Soupe à l'oignon gratinée au fromage",
+          "price": 8.5,
+          "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=2071&auto=format&fit=crop",
+          "category": "Entrées",
+          "isAvailable": true,
+          "isPopular": true,
+          "isNew": false,
+          "isVegetarian": true,
+          "isVegan": false,
+          "isSpicy": false,
+          "allergens": [
+            "gluten",
+            "lait"
+          ]
+        },
+        "totalPrice": 51
+      }
+    ],
+    "status": "delivered",
+    "subtotal": 51,
+    "deliveryFee": 0,
+    "serviceFee": 0.99,
+    "tip": 0,
+    "discount": 0,
+    "promoApplied": null,
+    "total": 51.99,
+    "paymentMethod": "card",
+    "deliveryAddress": {
+      "street": "15 avenue des Champs-Élysées",
+      "city": "Paris",
+      "postalCode": "75001",
+      "country": "France"
+    },
+    "estimatedDelivery": "2026-03-15T13:28:08.497Z",
+    "driver": {
+      "id": "driver-001",
+      "name": "Thomas D.",
+      "phone": "+33 6 12 34 56 78",
+      "photo": "https://randomuser.me/api/portraits/men/32.jpg",
+      "vehicle": "Vélo électrique",
+      "rating": 4.8
+    },
+    "timeline": [
+      {
+        "status": "pending",
+        "timestamp": "2026-03-15T12:48:08.497Z",
+        "message": "Commande reçue"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2026-03-15T12:48:18.511Z",
+        "message": "Commande confirmée par le restaurant"
+      },
+      {
+        "status": "preparing",
+        "timestamp": "2026-03-15T12:48:28.506Z",
+        "message": "Préparation en cours"
+      },
+      {
+        "status": "ready",
+        "timestamp": "2026-03-15T12:48:48.505Z",
+        "message": "Commande prête"
+      },
+      {
+        "status": "picked_up",
+        "timestamp": "2026-03-15T12:48:58.511Z",
+        "message": "Récupérée par le livreur"
+      },
+      {
+        "status": "delivering",
+        "timestamp": "2026-03-15T12:49:08.504Z",
+        "message": "En cours de livraison"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2026-03-15T12:49:38.507Z",
+        "message": "Livrée"
+      }
+    ],
+    "createdAt": "2026-03-15T12:48:08.497Z",
+    "updatedAt": "2026-03-15T12:49:38.507Z",
+    "actualDelivery": "2026-03-15T12:49:38.507Z"
+  },
+  {
+    "id": "34d6b118-2550-4c70-8848-0513bc9040a0",
+    "orderNumber": "FS-79800500",
+    "userId": "0246a1b2-31aa-4048-aed9-80890b9d8137",
+    "restaurantId": "r1",
+    "restaurantName": "Bistro Parisien",
+    "restaurantImage": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+    "restaurantPhone": "+33 1 23 45 67 89",
+    "items": [
+      {
+        "menuItemId": "d1",
+        "quantity": 8,
+        "menuItem": {
+          "id": "d1",
+          "name": "Soupe à l'Oignon",
+          "description": "Soupe à l'oignon gratinée au fromage",
+          "price": 8.5,
+          "image": "https://images.unsplash.com/photo-1547592166-23ac45744acd?q=80&w=2071&auto=format&fit=crop",
+          "category": "Entrées",
+          "isAvailable": true,
+          "isPopular": true,
+          "isNew": false,
+          "isVegetarian": true,
+          "isVegan": false,
+          "isSpicy": false,
+          "allergens": [
+            "gluten",
+            "lait"
+          ]
+        },
+        "totalPrice": 68
+      },
+      {
+        "menuItemId": "d9",
+        "quantity": 9,
+        "menuItem": {
+          "id": "d9",
+          "name": "Crème Brûlée",
+          "description": "Crème vanillée avec sa croûte caramélisée craquante",
+          "price": 6.5,
+          "image": "https://images.unsplash.com/photo-1470124182917-cc6e71b22ecc?q=80&w=2070&auto=format&fit=crop",
+          "category": "Desserts",
+          "isAvailable": true,
+          "isPopular": true,
+          "isNew": false,
+          "isVegetarian": true,
+          "isVegan": false,
+          "isSpicy": false,
+          "allergens": [
+            "lait",
+            "oeuf"
+          ]
+        },
+        "totalPrice": 58.5
+      },
+      {
+        "menuItemId": "d8",
+        "quantity": 6,
+        "menuItem": {
+          "id": "d8",
+          "name": "Tarte Tatin",
+          "description": "Tarte aux pommes caramélisées, servie tiède",
+          "price": 7,
+          "image": "https://images.unsplash.com/photo-1464305795204-6f5bbfc7fb81?q=80&w=2070&auto=format&fit=crop",
+          "category": "Desserts",
+          "isAvailable": true,
+          "isPopular": true,
+          "isNew": false,
+          "isVegetarian": true,
+          "isVegan": false,
+          "isSpicy": false,
+          "allergens": [
+            "gluten",
+            "lait",
+            "oeuf"
+          ]
+        },
+        "totalPrice": 42
+      }
+    ],
+    "status": "cancelled",
+    "subtotal": 168.5,
+    "deliveryFee": 0,
+    "serviceFee": 0.99,
+    "tip": 0,
+    "discount": 15,
+    "promoApplied": {
+      "code": "BIENVENUE30",
+      "type": "percent",
+      "discount": 15,
+      "message": "-15.00€"
+    },
+    "total": 154.49,
+    "paymentMethod": "card",
+    "deliveryAddress": {
+      "street": "15 avenue des Champs-Élysées",
+      "city": "Paris",
+      "postalCode": "75001",
+      "country": "France"
+    },
+    "estimatedDelivery": "2026-03-15T13:43:20.500Z",
+    "driver": null,
+    "timeline": [
+      {
+        "status": "pending",
+        "timestamp": "2026-03-15T13:03:20.501Z",
+        "message": "Commande reçue"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2026-03-15T13:03:30.521Z",
+        "message": "Commande confirmée par le restaurant"
+      },
+      {
+        "status": "cancelled",
+        "timestamp": "2026-03-15T13:03:37.040Z",
+        "message": "Commande annulée par le client"
+      }
+    ],
+    "createdAt": "2026-03-15T13:03:20.501Z",
+    "updatedAt": "2026-03-15T13:03:37.040Z",
+    "cancellationReason": "Annulé par le client"
+  },
+  {
+    "id": "1ba99b66-d86d-4527-aaa1-e1730421068f",
+    "orderNumber": "FS-79884620",
+    "userId": "0246a1b2-31aa-4048-aed9-80890b9d8137",
+    "restaurantId": "r4",
+    "restaurantName": "Pizza Napoli",
+    "restaurantImage": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=800",
+    "restaurantPhone": "+33 1 45 67 89 10",
+    "items": [
+      {
+        "menuItemId": "p1",
+        "quantity": 6,
+        "menuItem": {
+          "id": "p1",
+          "name": "Margherita",
+          "description": "Sauce tomate, mozzarella fior di latte, basilic frais, huile d'olive",
+          "price": 11.9,
+          "image": "https://images.unsplash.com/photo-1574071318508-1cdbab80d002?w=400",
+          "isAvailable": true,
+          "isPopular": true,
+          "isNew": false,
+          "isVegetarian": true,
+          "isVegan": false,
+          "isSpicy": false,
+          "allergens": [
+            "gluten",
+            "lait"
+          ]
+        },
+        "totalPrice": 71.4
+      },
+      {
+        "menuItemId": "p2",
+        "quantity": 5,
+        "menuItem": {
+          "id": "p2",
+          "name": "Quattro Formaggi",
+          "description": "Mozzarella, gorgonzola, parmesan, chèvre frais",
+          "price": 14.9,
+          "image": "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400",
+          "isAvailable": true,
+          "isPopular": true,
+          "isNew": false,
+          "isVegetarian": true,
+          "isVegan": false,
+          "isSpicy": false,
+          "allergens": [
+            "gluten",
+            "lait"
+          ]
+        },
+        "totalPrice": 74.5
+      },
+      {
+        "menuItemId": "p3",
+        "quantity": 16,
+        "menuItem": {
+          "id": "p3",
+          "name": "Diavola",
+          "description": "Sauce tomate, mozzarella, salami piquant, piments",
+          "price": 13.9,
+          "image": "https://images.unsplash.com/photo-1628840042765-356cda07504e?w=400",
+          "isAvailable": true,
+          "isPopular": false,
+          "isNew": false,
+          "isVegetarian": false,
+          "isVegan": false,
+          "isSpicy": true,
+          "spicyLevel": 2,
+          "allergens": [
+            "gluten",
+            "lait"
+          ]
+        },
+        "totalPrice": 222.4
+      }
+    ],
+    "status": "delivered",
+    "subtotal": 368.3,
+    "deliveryFee": 0,
+    "serviceFee": 0.99,
+    "tip": 0,
+    "discount": 15,
+    "promoApplied": {
+      "code": "BIENVENUE30",
+      "type": "percent",
+      "discount": 15,
+      "message": "-15.00€"
+    },
+    "total": 354.29,
+    "paymentMethod": "card",
+    "deliveryAddress": {
+      "street": "15 avenue des Champs-Élysées",
+      "city": "Paris",
+      "postalCode": "75001",
+      "country": "France"
+    },
+    "estimatedDelivery": "2026-03-15T13:44:44.620Z",
+    "driver": {
+      "id": "driver-001",
+      "name": "Thomas D.",
+      "phone": "+33 6 12 34 56 78",
+      "photo": "https://randomuser.me/api/portraits/men/32.jpg",
+      "vehicle": "Vélo électrique",
+      "rating": 4.8
+    },
+    "timeline": [
+      {
+        "status": "pending",
+        "timestamp": "2026-03-15T13:04:44.620Z",
+        "message": "Commande reçue"
+      },
+      {
+        "status": "confirmed",
+        "timestamp": "2026-03-15T13:04:54.625Z",
+        "message": "Commande confirmée par le restaurant"
+      },
+      {
+        "status": "preparing",
+        "timestamp": "2026-03-15T13:05:04.621Z",
+        "message": "Préparation en cours"
+      },
+      {
+        "status": "ready",
+        "timestamp": "2026-03-15T13:05:24.625Z",
+        "message": "Commande prête"
+      },
+      {
+        "status": "picked_up",
+        "timestamp": "2026-03-15T13:05:34.622Z",
+        "message": "Récupérée par le livreur"
+      },
+      {
+        "status": "delivering",
+        "timestamp": "2026-03-15T13:05:44.621Z",
+        "message": "En cours de livraison"
+      },
+      {
+        "status": "delivered",
+        "timestamp": "2026-03-15T13:06:14.635Z",
+        "message": "Livrée"
+      }
+    ],
+    "createdAt": "2026-03-15T13:04:44.620Z",
+    "updatedAt": "2026-03-15T13:06:14.635Z",
+    "actualDelivery": "2026-03-15T13:06:14.635Z"
+  }
+]
